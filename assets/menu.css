@@ -1,0 +1,397 @@
+/* Navbar Styling */
+body{
+    overflow-x: hidden;
+  }
+  .navbar {
+    background-color: white;
+    height: auto;
+  }
+  
+  .navbar-brand img {
+    width: 180px; /* Adjusted logo size */
+    height: auto;
+  }
+  
+  .navbar-toggler {
+    border: none;
+    outline: none;
+  }
+  
+  .navbar-toggler:focus {
+    box-shadow: none;
+  }
+  
+  .navbar-collapse {
+    text-align: center;
+  }
+  
+  /* Navbar Links */
+  .navbar-nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+  }
+  
+  .nav-item {
+    margin: 5px 0;
+  }
+  
+  .nav-link {
+    font-size: 18px;
+    /* font-weight: bold; */
+    color: black !important;
+    transition: color 0.3s ease-in-out;
+  }
+  
+  .nav-link:hover {
+    color: rgb(220, 0, 0) !important;
+  }
+  
+  /* Social Icons */
+  .social-icons {
+    display: flex;
+    gap: 0px;
+  }
+  
+  .social-icons i {
+    color: black;
+    font-size: 20px;
+  }
+  
+  .social-icons i:hover {
+    color: rgb(220, 0, 0);
+  }
+  
+  /* Order Button */
+  .button-nav {
+    background-color: rgb(220, 0, 0);
+    color: white;
+    /* font-weight: bold; */
+    border: none;
+    padding: 13px 25px;
+    font-size: 16px;
+    transition: 0.3s;
+    /* margin-left: 10px; */
+  }
+  
+  .button-nav:hover {
+    background-color: black;
+    color: white;
+  }
+  
+  /* Responsive Navbar */
+  @media (max-width: 992px) {
+    .navbar-collapse {
+      text-align: center;
+    }
+  
+    .navbar-nav {
+      flex-direction: column;
+      gap: 10px;
+    }
+  
+    .button-nav {
+      display: block;
+      width: 100%;
+      text-align: center;
+      margin: 10px auto;
+    }
+  }
+  /* =========remaining styling of navbar==========   */
+  .navbar {
+    background-color: white;
+    height: 100px;
+  }
+  
+  .nav-link,
+  .navbar-brand {
+    color: black !important;
+    font-size: 20px;
+    font-family: Fantasy;
+  }
+  
+  .nav-link:hover {
+    transition: 0.3s ease-in all;
+    color: rgb(220, 0, 0) !important;
+  }
+  
+  .social-icons i {
+    color: black;
+    font-size: 24px;
+    padding: 3px;
+    border-bottom: 4px solid white;
+  }
+  
+  .social-icons i:hover {
+    color: rgb(220, 0, 0);
+    border-bottom: 4px solid rgb(220, 0, 0);
+    transition: 0.3s ease-in all;
+  }
+  
+  .button-nav {
+    background-color: rgb(220, 0, 0);
+    color: white;
+    /* font-weight: bold; */
+    border: none;
+    font-family: fantasy;
+    padding: 12px 25px;
+    font-size: 18px;
+    transition: 0.3s;
+    margin: 10px;
+  }
+  
+  .button-nav:hover {
+    background-color: black;
+    color: white;
+    transition: 0.4s ease-in all;
+  }
+  .logo-name{
+    font-size: 2rem;
+    font-weight: 800;
+    /* font-family: fantasy; */
+    font-family: "Pacifico", serif;
+  }
+  /* =========================================================================navbar styling ending */
+    
+  /* Hero Section */
+  .menu-section {
+    text-align: center;
+    padding: 80px 20px;
+}
+.menu-heading {
+    font-size: 60px;
+    font-weight: bold;
+    color: #E02525;
+}
+.menu-text {
+    font-size: 18px;
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif;
+    text-shadow: 1px 1px 2px rgba(255, 255, 255, 0.2);
+}
+.order-btn {
+    background-color: #FFC107;
+    color: black;
+    font-weight: bold;
+    border: none;
+    padding: 15px 30px;
+    font-size: 18px;
+    /* border-radius: 5px; */
+    margin-top: 20px;
+}
+.order-btn:hover {
+    background-color: rgb(220, 0, 0);
+    color: white;
+    transition: .4s all ease-in;
+}
+.divider {
+    width: 180px;
+    height: 3px;
+    background-color: #FFC107;
+    margin: 0 auto 20px;
+} 
+  /* Popular Products */
+  .popular-head {
+    font-size: 50px;
+    font-weight: bold;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  }
+  
+  .animated-heading {
+    position: relative;
+    overflow: hidden;
+    display: inline-block;
+    white-space: nowrap;
+    animation: slideIn 1.5s ease-out;
+  }
+  
+  @keyframes slideIn {
+    from {
+      transform: translateX(-100%);
+      opacity: 0;
+    }
+    to {
+      transform: translateX(0);
+      opacity: 1;
+    }
+  }
+
+  /* ====================================== */
+ 
+  /* Popular Products */
+  .popular-head {
+    font-size: 50px;
+    font-weight: bold;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  }
+  
+  .animated-heading {
+    position: relative;
+    overflow: hidden;
+    display: inline-block;
+    white-space: nowrap;
+    animation: slideIn 1.5s ease-out;
+  }
+  
+  @keyframes slideIn {
+    from {
+      transform: translateX(-100%);
+      opacity: 0;
+    }
+    to {
+      transform: translateX(0);
+      opacity: 1;
+    }
+  }
+  
+  .card {
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* ========================================= */
+  /* =================================footer====== */
+/* Footer Section */
+.footer-section {
+    background: white;
+    padding: 40px 0 20px;
+    color: black;
+  }
+  
+  /* Footer Logo */
+  .footer-logo {
+    width: 180px;
+    margin-bottom: 20px;
+  }
+  
+  /* Footer Navigation */
+  .footer-nav {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    gap: 15px;
+  }
+  
+  .footer-nav li a {
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+    color: black;
+    transition: color 0.3s ease-in-out;
+  }
+  
+  .footer-nav li a:hover, .footer-nav li a.active {
+    color: red;
+  }
+  
+  /* Newsletter Section */
+  .newsletter-title {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .newsletter {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .newsletter input {
+    padding: 10px;
+    border: 2px solid black;
+    border-radius: 5px;
+    outline: none;
+    width: 220px;
+    font-size: 14px;
+  }
+  
+  .subscribe-btn {
+    background: black;
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 21px 32px;
+    border: none;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  .subscribe-btn:hover {
+    background: yellow;
+    color: black;
+  }
+  
+  /* Divider */
+  .footer-divider {
+    border-top: 1px solid red;
+    margin: 20px 0;
+  }
+  
+  /* Copyright & Social Icons Row */
+  .d-flex.justify-content-between {
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  
+  /* Copyright */
+  .copyright {
+    font-size: 14px;
+    color: black;
+  }
+  
+  /* Social Media Icons */
+  .social-icons {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    gap: 15px;
+  }
+  
+  .social-icons li a {
+    font-size: 20px;
+    color: red;
+    transition: 0.3s ease-in-out;
+  }
+  
+  .social-icons li a:hover {
+    color: black;
+  }
+  
+  /* Responsive Adjustments */
+  @media (max-width: 768px) {
+    .newsletter {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+  
+    .newsletter input {
+        width: 100%;
+    }
+  
+    .subscribe-btn {
+        width: 100%;
+    }
+  
+    .d-flex.justify-content-between {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+  }
+  
+  
+  
+  /* ========================== */
+  
