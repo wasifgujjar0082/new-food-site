@@ -12,12 +12,7 @@ body {
   background-color: white;
   height: auto;
 }
-.logo-name{
-  font-size: 2rem;
-  font-weight: 800;
- color: rgb(220, 0, 0) !important;
-  font-family: "Pacifico", serif !important;
-}
+
 .navbar-brand img {
   width: 180px; /* Adjusted logo size */
   height: auto;
@@ -120,6 +115,8 @@ body {
   .navbar-brand {
     color: black !important;
     font-size: 20px;
+    font-weight: 800px;
+
     font-family: Fantasy !important;
   }
   
@@ -145,6 +142,8 @@ body {
     background-color: rgb(220, 0, 0);
     color: white;
     /* font-weight: bold; */
+    font-weight: 800px;
+
     border: none;
     font-family: fantasy;
     padding: 12px 25px;
@@ -204,6 +203,8 @@ body {
     border: none;
     font-family: fantasy;
     /* letter-spacing: 1px; */
+    font-weight: 800px;
+
     padding: 20px 40px;
     font-size: 18px;
     transition: 0.3s;
