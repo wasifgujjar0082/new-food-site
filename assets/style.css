@@ -45,7 +45,6 @@ body {
 
 .nav-link {
   font-size: 18px;
-  /* font-weight: bold; */
   color: black !important;
   transition: color 0.3s ease-in-out;
 }
@@ -115,9 +114,10 @@ body {
   .navbar-brand {
     color: black !important;
     font-size: 20px;
-    font-weight: 800px;
+    font-family: "Impact", "Papyrus", "Copperplate", sans-serif;
+    font-weight: 500;
+  
 
-    font-family: Fantasy !important;
   }
   
   .nav-link:hover {
@@ -145,8 +145,7 @@ body {
     font-weight: 800px;
 
     border: none;
-    font-family: fantasy;
-    padding: 12px 25px;
+    font-family: "Impact", "Papyrus", "Copperplate", sans-serif;    padding: 12px 25px;
     font-size: 18px;
     transition: 0.3s;
     margin: 10px;
@@ -201,8 +200,7 @@ body {
     color: black;
     /* font-weight: bold; */
     border: none;
-    font-family: fantasy;
-    /* letter-spacing: 1px; */
+    font-family: "Impact", "Papyrus", "Copperplate", sans-serif;    /* letter-spacing: 1px; */
     font-weight: 800px;
 
     padding: 20px 40px;
