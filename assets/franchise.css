@@ -466,7 +466,9 @@ span {
 .small-text {
   font-size: 13px;
 }
-
+.subheading{
+  width: 400px;
+}
 /* ====================== */
 /* Mobile and Tablet Adjustments */
 
@@ -499,26 +501,32 @@ span {
 /* For Mobile (max-width: 480px) */
 @media (max-width: 480px) {
   .highlight {
-      font-size: 2rem;  /* Further reduce font size on mobile */
+      font-size: 14px;  /* Further reduce font size on mobile */
   }
-
+.subheading{
+  width: 250px;
+}
   .btn-custom {
-      font-size: 15px;  /* Smaller button text */
+      font-size: 8px;  /* Smaller button text */
       padding: 10px 20px;  /* Adjust padding for mobile */
   }
-
+  span{
+    margin: 0px;
+    font-size: 13px;
+  }
   .small-text {
-      font-size: 11px;  /* Adjust small text size */
+      font-size: 8px;  /* Adjust small text size */
   }
 
   .content-container {
       width: 90%;
       padding: 15px;
+      height: 420px;
   }
 
   .video-background {
       height: auto;  /* Allow video to scale proportionally */
-      max-height: 100vh;  /* Prevent video from being too tall */
+      max-height: 50vh;  /* Prevent video from being too tall */
   }
 }
 
@@ -593,6 +601,17 @@ span {
         margin-bottom: 20px;
     }
 }
+/* @media (max-width: 420px) {
+  .section-title {
+      font-size: 25px;
+  }
+  .description {
+      font-size: 1rem;
+  }
+  .info-card {
+      margin-bottom: 20px;
+  }
+} */
 /* ================================================================= */
 /* Franchise Section */
 /* Franchise Section */
