@@ -537,11 +537,11 @@ span {
 }
 
 .high{
-    font-size: 3.5rem;
+    font-size: 3rem;
     color: black;
 }
 .highlight-2 {
-    font-size: 3.5rem;
+    font-size: 3rem;
     color: rgb(220, 0, 0);
     font-weight: bold;
 }
@@ -601,6 +601,17 @@ span {
         margin-bottom: 20px;
     }
 }
+@media (max-width: 420px) {
+  .card-text{
+    font-size: 12px;
+  }
+  
+  .icon img {
+    width: 30px;
+    height: 30px;
+}
+}
+
 /* @media (max-width: 420px) {
   .section-title {
       font-size: 25px;
@@ -709,9 +720,17 @@ span {
 
 @media (max-width: 480px) {
   .text-content-1 h2 {
-      font-size: 2rem;
+      font-size: 1.8rem;
   }
-
+  span{
+    font-size: 1.8rem;
+  }
+  .text-content-1 p {
+    font-size: 12px;
+    max-width: 500px;
+    line-height: 1.6;
+    color: rgba(255, 255, 255, 0.9);
+  }
   .franchise-video-1 {
       width: 100%;
   }
