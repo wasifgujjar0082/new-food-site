@@ -728,9 +728,16 @@ body {
 
 @media (max-width: 480px) {
   .text-content h2 {
-      font-size: 2rem;
+      font-size: 1.8rem;
   }
-
+  .text-content p {
+        font-size: 12px;
+    }
+    .btn-franchise{
+      font-size: 12px;
+      padding: 10px 0px;
+      width: 150px;
+  }
   .franchise-video {
       width: 100%;
   }
