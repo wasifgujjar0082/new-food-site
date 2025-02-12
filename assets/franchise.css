@@ -1187,3 +1187,16 @@ footer {
     margin-top: 10px;
   }
 }
+@media (max-width: 480px) {
+  .heading::after {
+    content: "";
+    width: 80px;
+    height: 3px;
+    background-color: rgb(220, 0, 0);
+    position: absolute;
+    bottom: 100px;
+    left: 50%;
+    transform: translateX(-50%);
+    animation: expandBorder 2s ease-out forwards;
+  }
+}

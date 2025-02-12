@@ -370,6 +370,28 @@ h1 {
   }
 }
 
+@media (max-width: 420px) {
+  .about-section{
+    padding: 20px;
+  }
+  .text-content {
+    padding-top: 14px;
+      text-align: center;
+  }
+  .image-content {
+      margin-top: 20px;
+  }
+  .image-content img{
+    height: 350px;
+    width: auto;
+    /* margin-top: 20px; */
+}
+.background-line{ 
+  background-color: rgb(220, 0, 0);
+  height: 50px !important;
+}
+}
+
 
 /* ==================== */
 .background-line{ 
