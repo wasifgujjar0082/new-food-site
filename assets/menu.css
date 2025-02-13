@@ -6,6 +6,10 @@ body{
     background-color: white;
     height: auto;
   }
+  ::selection {
+    background-color: rgb(220, 0, 0) !important;
+    color: white !important;
+  }
   .navbar-brand img {
     width: 120px; /* Adjusted logo size */
     height: 100px;
