@@ -19,8 +19,8 @@ body {
   font-family: "Pacifico", serif;
 }
 .navbar-brand img {
-  width: 180px; /* Adjusted logo size */
-  height: auto;
+  width: 120px; /* Adjusted logo size */
+  height: 100px;
 }
 
 .navbar-toggler {
