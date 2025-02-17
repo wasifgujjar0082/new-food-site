@@ -22,8 +22,8 @@ color: rgb(220, 0, 0) !important;
 font-family: "Pacifico", serif;
 }
 .navbar-brand img {
-  width: 120px; /* Adjusted logo size */
-  height: 100px;
+  width: 165px;
+  height: 180px;
 }
 
 .navbar-toggler {
